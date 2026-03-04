@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  proposal-app:
+    image: ishu11/valentines-app:latest
+    container_name: proposal-app_container
+    restart: always
+    ports:
+      - "8000:80"  
+    
